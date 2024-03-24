@@ -109,3 +109,25 @@
 .info{
     text-align: center;
 }
+
+/* -------------------------------------------------sign up section style-------------------------------------- */
+.signup-section{
+    background-color: #FEF6F8;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.signUp-container{
+    text-align: center;
+    width: 480px;
+
+}
+.signUp-container p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px ;
+}
+
