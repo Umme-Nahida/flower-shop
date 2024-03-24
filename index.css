@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Margarine&family=Truculenta:opsz,wght@12..72,100..900&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner{
+    background-color: #f5d3da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 100px 0px 100px;
+    
+
+}
+
+.banner-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 635px;
+}
+.banner-img img{
+    width: 600px;
+    height: 600px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #272727;
+    margin-bottom: 10px;
+
+}
+.banner-text{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 20px 40px;
+    background-color: #E55473;
+    border-radius: 5px;
+    font-family: "Lato";
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+
+:hover .btn{
+    background-color: #f5476d;
+}
+
+/* -----------------------------------------------------second section style------------------------------------- */
+.second-section{
+    padding: 100px 100px;
+    text-align: center;
+
+}
+
+.second-section .text{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #272727;
+}
+
+.grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.grid-container img{
+    width: 210px;
+    height: 300px;
+}
+.pic{
+    background-color: #F2DEE8;
+    border-radius: 200px 200px 0 0;
+    padding: 80px 50px 0 50px;
+    margin: 20px 0;
+}
+
+.pic-title{
+    font-size: 24px;
+    color: #272727;
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------style info sections------------------------------------------ */
+.info-section{
+    background-color: #F4F4F4;
+    margin: 50px 100px;
+    border-radius: 5px;
+}
+
+.grid-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.info{
+    text-align: center;
+}
